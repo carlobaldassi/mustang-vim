@@ -63,6 +63,12 @@ hi NERDTreeFile     guifg=#cdd2db ctermfg=250
 hi NERDTreeDir      guifg=#a5aebe ctermfg=111
 hi NERDTreeUp       guifg=#5b646d ctermfg=62
 
+" Diff mode
+hi DiffAdd		guibg=#171a3b
+hi DiffChange		guibg=#371a3b
+hi DiffDelete		guibg=#272a2b guifg=#000000
+hi DiffText		guibg=#502020
+
 hi def link NERDTreeOpenable String
 hi def link NERDTreeCloseable NERDTreeOpenable
 hi def link NERDTreeCWD String
