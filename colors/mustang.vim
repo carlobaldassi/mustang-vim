@@ -51,6 +51,10 @@ hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
 hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
 
+" Search
+hi Search     guibg=#333333 guifg=#fce94f gui=none
+hi IncSearch  guibg=#406040 guifg=#fce94f gui=none
+
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
 
